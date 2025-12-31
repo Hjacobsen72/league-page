@@ -151,19 +151,27 @@
         <p>The trade deadline will be set for week 11 games of the NFL regular season.</p>
     </div>
     
-    <h4 bind:this={oneTwoFive}>1.2.4 Veto/Trade Process</h4>
+    <h4 bind:this={oneTwoFour}>1.2.4 Veto/Trade Process</h4>
     <div class="subBlock">
         <p>A total of 5 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value. Not liking a trade does not warrant a veto.</p>
     </div>
-    
+
+     <h4 bind:this={oneTwoFive}>1.2.5 Majority Rule Clause</h4>
+    <div class="subBlock">
+        <p>In the event that any manager encounters an unusual situation or dispute during the season, they have the right to bring the issue before the league for consideration. Each manager may call for a majority vote to resolve the matter. To initiate this process, the concerned manager or managers must present a detailed description of the issue to all league managers. A vote will then be conducted, and a resolution will be determined by a simple majority. In the unusual event of a tie vote, the team in last place at the time of the vote will not be counted towards the majority vote. All managers are required to participate in the voting process to ensure a fair and democratic resolution.</p>
+    </div>
     
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
-    
-    <h3 bind:this={twoOne}>2.1 Draft Order</h3>
+
+    <h3 bind:this={twoOne}>2.1 Draft Day Availability</h3>
+    <p>All Members must be present at their devices for the draft. Auto-draft will not be permitted unless strenuous circumstances prohibit the Member from participating in the draft. These circumstances will be presented to the Commissioner and it is at his sole discretion whether or not the circumstances constitute as strenuous in nature.</p>
+
+    <h3 bind:this={twoTwo}>2.2 Draft Order</h3>
     <p>The draft order each year will be set at random 24 hours ahead of the scheduled draft. In the event that the draft must be rescheduled after the draft order has been randomized, it is at the sole discretion of the commissioner whether or not to re-randomize the draft order.</p>
     
-    <h3 bind:this={twoThree}>2.2 Draft Day Trades</h3>
+    <h3 bind:this={twoThree}>2.3 Draft Day Trades</h3>
     <p>Draft Day Trades are not permitted.</p>
+
     
     <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
 
@@ -191,6 +199,7 @@
     
     <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
     <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty may be subject to punishment, including but not limited to the forfeiture of lineup changes or waiver wire privelages. It is at the commissioners sole discretion, at any time, to set a Managers lineup if any roster spots are left empty. </p>
+    <p>To maintain competitive balance and fairness, managers are prohibited from intentionally releasing high-value players or a significant portion of their roster in a manner that provides an unfair advantage to other teams. Legitimate roster moves, such as dropping players due to injury, suspension, or poor performance, are allowed. Any actions deemed to be "dumping" or collusion will be subject to review by the league commissioner, who has the authority to reverse roster changes, lock dropped players on waivers, and impose penalties, including loss of waiver privileges, draft picks, or removal from the league for severe violations. Complaints of potential dumping must be submitted to the commissioner with supporting evidence for review.</p>
 
     <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
     
@@ -213,5 +222,16 @@
         <li>3rd place: {dues}$</li>
     </ul>
     <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout.</p>
+
+
+    <h2 class="sectionHeading" bind:this={eight}>Section 8 Pre-Game Ritual</h2>
+
+    <h3 bind:this={eightOne}>8.1 Weekly Shot/Shotgun</h3>
+    <p>Each week, the manager with the lowest scoring points must take a shot or shotgun before the first snap of the following week's first game. Each manager is individually responsible for keeping track of who had the lowest scoring week and when the first game of the following week will take place.  A video of this action must be recorded and sent to the league group chat or designated platform as proof. If a Manager fails to take the shot/shotgun and send the video before the first snap, their highest-scoring player for that week will be benched. Each week the Manager does not take their shot/shotgun before the first snap of the following week’s first game, another shot/shotgun will be added on. Players who are benched by the commissioner will still be considered towards a manager's total score for that week.
+
+    <h2 class="sectionHeading" bind:this={nine}>Section 9 Last Place Punishment</h2>
+
+    <h3 bind:this={nineOne}>9.1 Last Place Punishment</h3>
+    <p>The punishment for the league loser will be determined by a majority vote of the managers before the draft. The punishment receiving the most votes will be adopted. The league loser must complete the agreed-upon punishment before the start of the following season. Members who fail to complete the punishment will be prohibited from participating in the league for the subsequent season.
 
 </div>

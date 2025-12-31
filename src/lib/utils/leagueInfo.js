@@ -7,12 +7,14 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Welcome to the National Degenerates Fantasy Football League!</p>
+  <p>Every season, this league upholds its sacred tradition: to crown a champion worthy of eternal bragging rights and to brand a loser with everlasting shame. Here, victory is earned, not given. Defeat is public, and excuses are meaningless.</p>
+  <p>We operate under a strict code of principles—honor, rivalry, and relentless pursuit of greatness. These rules aren’t just guidelines; they’re the backbone of our legacy.</p>
+  <p>This site is your command center:</p>
+  <p>  Track Stats & Matchups – Stay ahead of the competition with real-time updates.</p>
+  <p>  League News & Announcements – Never miss a trade, a rule change, or a commissioner decree.</p>
+  <p>  History & Records – Relive the glory (or humiliation) of seasons past.</p>
+  <p>If you dare to accept the challenge, enter freely—but know this: once you’re in, there’s no turning back. The stakes are high, the rivalries are fierce, and only one will rise above the rest.</p>
 `;
 
 /*   STEP 3   */

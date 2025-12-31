@@ -25,6 +25,12 @@ export const tabs = [
         dest: '/blog',
         key: 'blog',
     },
+      {
+        icon: 'article',
+        label: 'Forms',
+        dest: '/form',
+        key: 'form',
+    },
     {
         icon: 'view_comfy',
         label: 'League Info',

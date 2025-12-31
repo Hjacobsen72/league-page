@@ -17,6 +17,25 @@ export const homepageText = `
   <p>If you dare to accept the challenge, enter freely—but know this: once you’re in, there’s no turning back. The stakes are high, the rivalries are fierce, and only one will rise above the rest.</p>
 `;
 
+
+export default function GoogleForm() {
+  return (
+    <div style={{ maxWidth: '900px', margin: '0 auto' }}>
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfj81Br0zV4M7e9l_-0uzB0GVz6r0Y8dJWFX7aHWDQ0G7IWgw/viewform?embedded=true"
+        width="100%"
+        height="2118"
+        frameBorder="0"
+        marginHeight="0"
+        marginWidth="0"
+        style={{ border: 'none' }}
+      >
+        Loading…
+      </iframe>
+    </    </div>
+  );
+
+
 /*   STEP 3   */
 /*
 3 managers as an example. Uncomment (remove the //) before each line to make it live code

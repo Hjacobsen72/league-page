@@ -15,6 +15,7 @@ export const homepageText = `
   <p>- League News & Announcements – Never miss a trade, a rule change, or a commissioner decree.</p>
   <p>- History & Records – Relive the glory (or humiliation) of seasons past.</p>
   <p>If you dare to accept the challenge, enter freely—but know this: once you’re in, there’s no turning back. The stakes are high, the rivalries are fierce, and only one will rise above the rest.</p>
+  <p>https://docs.google.com/forms/d/e/1FAIpQLSfj81Br0zV4M7e9l_-0uzB0GVz6r0Y8dJWFX7aHWDQ0G7IWgw/viewform?embedded=true</p>
 `;
 
 
